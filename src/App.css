@@ -13,3 +13,78 @@
     min-height: 100vh;
     backdrop-filter: blur(5px);
 }
+
+.searchDiv{
+    background-color: #ffffff3d;
+    border-radius: 5px;
+}
+
+.searchBttn{
+    margin-left: 10px;
+    border-radius: 5px;
+    width: 93px;
+    font-size: 20px !important;
+    padding: 6px !important;
+}
+
+/* ShowWeather page style */
+.weatherBox{
+    background: #1616161a;
+    backdrop-filter: blur(50px);
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    padding: 20px;
+    color: #fff;
+    width: 57%;
+    min-height: 85vh;
+}
+
+.weatherIcon{
+    transform: scale(1.8);
+}
+
+.tempValue{
+    font-size: 71px;
+    font-weight: 700;
+    margin-bottom: 17px;
+    font-family: "Oswald", sans-serif;
+}
+
+.weatherDescp{
+    text-transform: uppercase;
+    font-size: 23px;
+    font-family: monospace;
+    font-weight: 600;
+}
+
+.dayContainer{
+    /* border: 2px solid rgba(255, 255, 255, 0.2);
+    border-radius: 5px; */
+    padding: 7px;
+}
+
+.dayBox{
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    padding: 7px;
+}
+
+.boxTemp{
+    font-weight: 600;
+    font-size: 43px;
+    position: relative;
+    z-index: 5;
+    backdrop-filter: brightness(0.9);
+}
+
+.boxImg{
+    position: absolute;
+    left: 8%;
+    top: 73%;
+}
+
+/* footer.jsx */
+.footerContainer {
+    /* background: linear-gradient(185deg, #00d5ff 10%, #020069 35%); */
+    background-color: #020069;
+}
