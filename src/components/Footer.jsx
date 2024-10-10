@@ -8,9 +8,9 @@ function Footer() {
       <Grid container spacing={2}>
         <Grid size={{xs:12, lg:4}}>
           <div  className="intro">
-            <h5><Link className='fw-bolder flex' to={'/'} style={{ color: "#fff", textDecoration: "none" }}>Astra </Link></h5>
-            <p className='text-white '>Designed and built with all the love in the world by the Astra team with the help of our contributors.</p>
-            <p className='text-white '>Code licensed MIT, docs CC BY 3.0.</p>
+            <h5><Link className='fw-bolder flex' to={'/'} style={{ color: "#fff", textDecoration: "none" }}>Weather Globe </Link></h5>
+            <p className='text-white '>Designed and built with all the love in the world by the Weather Globe team with the help of our contributors.</p>
+            <p className='text-white '>Code licensed MIT, docs CC BY 1.0.</p>
             <p className='text-white '> Currently V1.0.0.</p>
           </div>
         </Grid>
@@ -19,9 +19,7 @@ function Footer() {
           <div className="links d-flex flex-column ">
             <h5 className='text-white '>Links</h5>
             <Link to={'/'} style={{ textDecoration: 'none', color: 'white' }}>Home</Link>
-            <Link to={'/about'} style={{ textDecoration: 'none', color: 'white' }}>About</Link>
-            <Link to={'/grvncsubmit'} style={{ textDecoration: 'none', color: 'white' }}>Tell Us</Link>
-            <Link to={'/dashboard'} style={{ textDecoration: 'none', color: 'white' }}>Dashboard</Link>
+            <Link to={'/weather'} style={{ textDecoration: 'none', color: 'white' }}>Weather</Link>
           </div>
         </Grid>
         <Grid size={{xs:12,sm:4,lg:2}}>
@@ -62,7 +60,7 @@ function Footer() {
           </div>
         </Grid>
       </Grid>
-      <p className='text-center text-white  mt-2 mb-0'>Copyright &#169;Astra 2024. Built with React.</p>
+      <p className='text-center text-white  mt-2 mb-0'>Copyright &#169; Weather Globe 2024. Built with React.</p>
     </div>
   )
 }

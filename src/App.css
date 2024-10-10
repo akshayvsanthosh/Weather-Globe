@@ -27,6 +27,16 @@
     padding: 6px !important;
 }
 
+.recentBox{
+    background: #1616161a;
+    backdrop-filter: blur(50px);
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    padding: 20px;
+    width: 80%;
+    color: #fff;
+}
+
 /* ShowWeather page style */
 .weatherBox{
     background: #1616161a;
@@ -43,11 +53,16 @@
     transform: scale(1.8);
 }
 
+/* .searchBoxWeather{
+    width: 47ch
+} */
+
 .tempValue{
     font-size: 71px;
     font-weight: 700;
     margin-bottom: 17px;
     font-family: "Oswald", sans-serif;
+    z-index: 2;
 }
 
 .weatherDescp{
@@ -72,19 +87,24 @@
 .boxTemp{
     font-weight: 600;
     font-size: 43px;
-    position: relative;
-    z-index: 5;
-    backdrop-filter: brightness(0.9);
-}
-
-.boxImg{
-    position: absolute;
-    left: 8%;
-    top: 73%;
 }
 
 /* footer.jsx */
 .footerContainer {
     /* background: linear-gradient(185deg, #00d5ff 10%, #020069 35%); */
     background-color: #020069;
+}
+
+/* media queries */
+@media (max-width:900px) {
+    .weatherBox{
+        width: 95%;
+        min-height: 85vh;
+    }
+}
+
+@media (max-width:600px) {
+    /* .searchBoxWeather{
+        width: 47ch
+    } */
 }

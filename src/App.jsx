@@ -3,6 +3,8 @@ import './App.css'
 import Home from './Pages/Home'
 import ShowWeather from './Pages/ShowWeather'
 import Footer from './components/Footer'
+import { ToastContainer } from 'react-toastify';
+
 
 function App() {
 
@@ -13,7 +15,8 @@ function App() {
         <Route path='/' element={<Home />} />
         <Route path='/weather' element={<ShowWeather />} />
       </Routes>
-      <Footer/>
+      <Footer />
+      <ToastContainer position="top-center" autoClose={3000} hideProgressBar={false} newestOnTop={false} closeOnClick rtl={false} pauseOnFocusLoss draggable pauseOnHover theme="colored" />
     </>
   )
 }
