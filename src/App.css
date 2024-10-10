@@ -1,0 +1,15 @@
+/* home page style */
+.homeContainer{
+    background-image: url('../src/assets/bg.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.homeContainerBlur{
+    width: 100%;
+    min-height: 100vh;
+    backdrop-filter: blur(5px);
+}
